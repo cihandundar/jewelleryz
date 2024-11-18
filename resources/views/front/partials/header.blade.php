@@ -34,23 +34,19 @@
 </div>
 <header class="py-3">
     <div class="container max-w-screen-xl mx-auto">
-        <div class="row">
-            <div class="col-lg-4">
-                <nav>
-                    <ul class="flex gap-4">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Collections</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-lg-4">
-                <a href="/" class="flex justify-center">
-                    <img src="{{ asset('front/assets/images/logo.png') }}" alt="logo" class="w-40">
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <ul class="flex justify-end gap-4 items-center">
+        <div class="flex justify-between items-center">
+            <a href="/"><img src="{{ asset('front/assets/images/logo.png') }}" alt="logo" class="w-40">
+            </a>
+            <nav>
+                <ul class="flex gap-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul class="flex gap-4 items-center">
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
