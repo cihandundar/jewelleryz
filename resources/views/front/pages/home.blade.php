@@ -2,5 +2,5 @@
 
 
 @section('content')
-    Home
+    @include('front.partials.sections.hero')
 @endsection

@@ -11,6 +11,12 @@ export default {
     ],
     theme: {
         extend: {
+            transitionProperty: {
+                transform: "transform",
+            },
+            clipPath: {
+                custom: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+            },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
             },
@@ -24,5 +30,6 @@ export default {
             },
         },
     },
+    safelist: ["translate-x-0", "translate-x-full", "swiper-slide-active"],
     plugins: [],
 };

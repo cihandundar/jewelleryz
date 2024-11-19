@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    font-size: 18px;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-prev:after {
+    font-size: 18px;
+}
