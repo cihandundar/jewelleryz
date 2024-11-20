@@ -1,65 +1,68 @@
 settings:
-  site_name: 'Mock CMS'
-  phone: '555-555-5555'
-  email: 'info@clicktocms.com'
+  site_name: "Jewelleryz"
+  phone: "555-555-5555"
+  email: "info@jewelleryz.com"
+  logo: "/front/assets/images/logo.png"
 menus:
-  - title: 'Hamburger Menu'
+  - title: "Ana Menü"
     items:
-      - title: 'Home'
-        url: '/'
-        custom_data: ''
+      - title: "Home"
+        url: "/"
+        custom_data: ""
         new_tab: false
-      - title: 'Blog'
-        url: '/blog'
-        custom_data: ''
+      - title: "Collections"
+        url: "/collections"
+        custom_data: ""
         new_tab: false
-        children:
-          - title: 'Popular Posts'
-            url: '/popular-posts'
-            custom_data: ''
-            new_tab: false
-          - title: 'Recent Posts'
-            url: '/recent-posts'
-            custom_data: ''
-            new_tab: false
-  - title: 'Footer Menu'
-    items:
-      - title: 'Contact'
-        url: '/contact'
-        custom_data: ''
+      - title: "Contact"
+        url: "/contact"
+        custom_data: ""
         new_tab: false
-      - title: 'About Us'
-        url: '/abaout-us'
-        custom_data: ''
+      - title: "About"
+        url: "/about"
+        custom_data: ""
         new_tab: false
+      - title: "Blog"
+        url: "/blog"
+        custom_data: ""
+        new_tab: false
+      - title: "Shop"
+        url: "/shop"
+        custom_data: ""
+        new_tab: false
+      - title: "FAQ"
+        url: "/faq"
+        custom_data: ""
+        new_tab: false
+
 post_types:
-  - title: 'Blog'
+  - title: "Blog"
     posts:
-      - title: 'Hello World'
-        url: '/hello-world'
-        content: 'Welcome to my blog!'
-      - title: 'Another Post with Visual Part'
-        url: '/another-post'
-        content: 'This is another post.'
+      - title: "Hello World"
+        url: "/hello-world"
+        content: "Welcome to my blog!"
+      - title: "Another Post with Visual Part"
+        url: "/another-post"
+        content: "This is another post."
         visual:
-          - title: 'FAQ'
+          - title: "FAQ"
             posts:
-              - title: 'Why is the sky blue?'
-                url: '/why-is-the-sky-blue'
-                content: 'The sky is blue because of the way the atmosphere scatters sunlight.'
-              - title: 'What is the meaning of life?'
-                url: '/meaning-of-life'
-                content: 'The meaning of life is to give life meaning.'
-  - title: 'Sayfalar'
+              - title: "Why is the sky blue?"
+                url: "/why-is-the-sky-blue"
+                content: "The sky is blue because of the way the atmosphere scatters sunlight."
+              - title: "What is the meaning of life?"
+                url: "/meaning-of-life"
+                content: "The meaning of life is to give life meaning."
+  - title: "Sayfalar"
     posts:
-      - title: 'Contact'
-        url: '/contact'
-        content: 'Contact us at 555-555-5555'
-      - title: 'About Us'
-        url: '/about-us'
-        content: 'We are a mock CMS'
+      - title: "Contact"
+        url: "/contact"
+        content: "Contact us at 555-555-5555"
+      - title: "About Us"
+        url: "/about-us"
+        content: "We are a mock CMS"
         calisma-saatleri:
-          - - '09.00'
-            - '12.00'
-          - - '13.00'
-            - '18.00'
+          - - "09.00"
+            - "12.00"
+          - - "13.00"
+            - "18.00"
