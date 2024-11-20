@@ -1,0 +1,65 @@
+settings:
+  site_name: 'Mock CMS'
+  phone: '555-555-5555'
+  email: 'info@clicktocms.com'
+menus:
+  - title: 'Hamburger Menu'
+    items:
+      - title: 'Home'
+        url: '/'
+        custom_data: ''
+        new_tab: false
+      - title: 'Blog'
+        url: '/blog'
+        custom_data: ''
+        new_tab: false
+        children:
+          - title: 'Popular Posts'
+            url: '/popular-posts'
+            custom_data: ''
+            new_tab: false
+          - title: 'Recent Posts'
+            url: '/recent-posts'
+            custom_data: ''
+            new_tab: false
+  - title: 'Footer Menu'
+    items:
+      - title: 'Contact'
+        url: '/contact'
+        custom_data: ''
+        new_tab: false
+      - title: 'About Us'
+        url: '/abaout-us'
+        custom_data: ''
+        new_tab: false
+post_types:
+  - title: 'Blog'
+    posts:
+      - title: 'Hello World'
+        url: '/hello-world'
+        content: 'Welcome to my blog!'
+      - title: 'Another Post with Visual Part'
+        url: '/another-post'
+        content: 'This is another post.'
+        visual:
+          - title: 'FAQ'
+            posts:
+              - title: 'Why is the sky blue?'
+                url: '/why-is-the-sky-blue'
+                content: 'The sky is blue because of the way the atmosphere scatters sunlight.'
+              - title: 'What is the meaning of life?'
+                url: '/meaning-of-life'
+                content: 'The meaning of life is to give life meaning.'
+  - title: 'Sayfalar'
+    posts:
+      - title: 'Contact'
+        url: '/contact'
+        content: 'Contact us at 555-555-5555'
+      - title: 'About Us'
+        url: '/about-us'
+        content: 'We are a mock CMS'
+        calisma-saatleri:
+          - - '09.00'
+            - '12.00'
+          - - '13.00'
+            - '18.00'
