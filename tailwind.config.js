@@ -11,14 +11,17 @@ export default {
     ],
     theme: {
         extend: {
-            transitionProperty: {
-                transform: "transform",
+            animation: {
+                spinSlow: "spin-slow 3s linear infinite", // Animasyon adı: `spinSlow`
             },
-            clipPath: {
-                custom: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+            keyframes: {
+                "spin-slow": {
+                    from: { transform: "rotate(0deg)" },
+                    to: { transform: "rotate(360deg)" },
+                },
             },
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                alice: ["Alice", "serif"],
             },
             screens: {
                 xs: "475px",

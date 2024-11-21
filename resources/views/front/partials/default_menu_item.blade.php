@@ -1,6 +1,7 @@
 @if ($data && isset($data['item']))
     <li class="{{ isActivePage($data['item']) ? 'active' : '' }}">
-        <a href="{{ $data['item']->url() }}"{!! isset($data['item']->new_tab) && $data['item']->new_tab ? ' target="_blank"' : '' !!}>
+        <a class="hover:text-blue-600 transition-all ease-in duration-300"
+            href="{{ $data['item']->url() }}"{!! isset($data['item']->new_tab) && $data['item']->new_tab ? ' target="_blank"' : '' !!}>
             {!! $data['item']->custom_data !!} {{-- Özel linkdeki Özel Alanı Çeker --}}
             {{ $data['item']->get('title') }}
         </a>
