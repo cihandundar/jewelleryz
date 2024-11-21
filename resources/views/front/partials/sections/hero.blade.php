@@ -11,7 +11,7 @@
                         class="border-2 border-white px-10 py-2 hover:bg-white transition-all duration-300 ease-in hover:text-black text-white">Explore
                         Jewels</button></a>
             </div>
-            <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Hafif siyah overlay -->
+            <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
         <!-- Slide 2 -->
         <div class="swiper-slide relative  flex justify-center md:items-center items-end">
@@ -25,7 +25,7 @@
                         class="border-2 border-white px-10 py-2 hover:bg-white transition-all duration-300 ease-in hover:text-black text-white">Explore
                         Jewels</button></a>
             </div>
-            <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Hafif siyah overlay -->
+            <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
         <!-- Slide 3 -->
         <div class="swiper-slide relative flex justify-center md:items-center items-end">
@@ -39,7 +39,7 @@
                         class="border-2 border-white px-10 py-2 hover:bg-white transition-all duration-300 ease-in hover:text-black text-white">Explore
                         Jewels</button></a>
             </div>
-            <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Hafif siyah overlay -->
+            <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
     </div>
 

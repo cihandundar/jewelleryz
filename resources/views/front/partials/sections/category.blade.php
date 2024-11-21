@@ -3,7 +3,7 @@
         <img src="{{ asset('front/assets/images/spinner.png') }}" alt="spinner"
             class="absolute left-0 top-5 w-20 animate-spinSlow">
         <div class="flex flex-col justify-center items-center pt-[90px]">
-            <div class="text-7xl italic">
+            <div class="text-7xl italic text-center">
                 Our Categories
             </div>
             <div class="text-center pt-5 italic">
@@ -11,7 +11,72 @@
                 et
                 dolore magna aliqua. Ut enim ad minim veniam.
             </div>
-            <div class="grid grid-col-4">
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 py-10 lg-px-0 px-3">
+                <a href="#" class="relative group block">
+                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category1.png') }}"
+                        alt="ring">
+
+                    <div
+                        class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
+                    </div>
+
+                    <div
+                        class="absolute bottom-20 left-1/2 transform -translate-x-1/2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                        <button
+                            class="px-4 py-2 text-2xl text-white uppercase font-semibold rounded focus:outline-none transition-colors duration-500 ease-in-out group-hover:bg-white group-hover:text-black">
+                            Rıngs
+                        </button>
+                    </div>
+                </a>
+                <a href="#" class="relative group block">
+                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category2.png') }}"
+                        alt="ring">
+
+                    <div
+                        class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
+                    </div>
+
+                    <div
+                        class="absolute bottom-20 left-1/2 transform -translate-x-1/2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                        <button
+                            class="px-2 py-2 text-2xl text-white uppercase font-semibold rounded focus:outline-none transition-colors duration-500 ease-in-out group-hover:bg-white group-hover:text-black">
+                            Ear Rıngs
+                        </button>
+                    </div>
+                </a>
+                <a href="#" class="relative group block">
+                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category3.png') }}"
+                        alt="ring">
+
+                    <div
+                        class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
+                    </div>
+
+                    <div
+                        class="absolute bottom-20 left-1/2 transform -translate-x-1/2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                        <button
+                            class="px-4 py-2 text-2xl text-white uppercase font-semibold rounded focus:outline-none transition-colors duration-500 ease-in-out group-hover:bg-white group-hover:text-black">
+                            Necklace
+                        </button>
+                    </div>
+                </a>
+                <a href="#" class="relative group block">
+                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category4.png') }}"
+                        alt="ring">
+
+                    <div
+                        class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
+                    </div>
+
+                    <div
+                        class="absolute bottom-20 left-1/2 transform -translate-x-1/2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                        <button
+                            class="px-4 py-2 text-2xl text-white uppercase font-semibold rounded focus:outline-none transition-colors duration-500 ease-in-out group-hover:bg-white group-hover:text-black">
+                            Bracelets
+                        </button>
+                    </div>
+                </a>
+
 
             </div>
         </div>
