@@ -18,7 +18,7 @@ closeicon.addEventListener("click", () => {
 
 // HERO SLIDER
 
-const swiper = new Swiper(".heroSlider", {
+var swiper = new Swiper(".heroSlider", {
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -40,4 +40,36 @@ const swiper = new Swiper(".heroSlider", {
         disableOnInteraction: false,
     },
     speed: 800,
+});
+
+// FEATURED DEALS SLIDER
+
+var swiper = new Swiper(".featuredSlider", {
+    loop: true,
+    effect: "fade",
+    fadeEffect: {
+        crossFade: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+// FEATURED CHILD SLIDER
+
+var swiper = new Swiper(".featuredEaringSlider", {
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+var swiper = new Swiper(".featuredCelestialSlider", {
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });

@@ -11,10 +11,10 @@
                 et
                 dolore magna aliqua. Ut enim ad minim veniam.
             </div>
-            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 py-10 lg-px-0 px-3">
-                <a href="#" class="relative group block">
-                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category1.png') }}"
-                        alt="ring">
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 py-10 lg:px-0 px-3">
+                <a href="#" class="relative group block overflow-hidden">
+                    <img class="h-full object-cover group-hover:scale-110 transition-all duration-500"
+                        src="{{ asset('front/assets/images/category1.png') }}" alt="ring">
 
                     <div
                         class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
@@ -28,9 +28,9 @@
                         </button>
                     </div>
                 </a>
-                <a href="#" class="relative group block">
-                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category2.png') }}"
-                        alt="ring">
+                <a href="#" class="relative group block overflow-hidden">
+                    <img class="h-full object-cover group-hover:scale-110 transition-all duration-500"
+                        src="{{ asset('front/assets/images/category2.png') }}" alt="ring">
 
                     <div
                         class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
@@ -44,9 +44,9 @@
                         </button>
                     </div>
                 </a>
-                <a href="#" class="relative group block">
-                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category3.png') }}"
-                        alt="ring">
+                <a href="#" class="relative group block overflow-hidden">
+                    <img class="h-full object-cover group-hover:scale-110 transition-all duration-500"
+                        src="{{ asset('front/assets/images/category3.png') }}" alt="ring">
 
                     <div
                         class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
@@ -60,9 +60,9 @@
                         </button>
                     </div>
                 </a>
-                <a href="#" class="relative group block">
-                    <img class="h-full object-cover" src="{{ asset('front/assets/images/category4.png') }}"
-                        alt="ring">
+                <a href="#" class="relative group block overflow-hidden">
+                    <img class="h-full object-cover group-hover:scale-110 transition-all duration-500"
+                        src="{{ asset('front/assets/images/category4.png') }}" alt="ring">
 
                     <div
                         class="absolute inset-0 bg-black opacity-30 group-hover:opacity-50 transition-opacity duration-500">
