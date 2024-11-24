@@ -13,8 +13,8 @@
                 <div class="bg-blue-950 w-full h-full p-5">
                     <div class="swiper featuredSlider pb-5">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="flex items-center gap-10">
+                            <a href="#" class="swiper-slide">
+                                <div class="flex gap-10">
                                     <div class="swiper featuredEaringSlider">
                                         <div class="swiper-wrapper h-[560px]">
                                             <div class="swiper-slide">
@@ -41,7 +41,7 @@
                                             class="swiper-button-prev bg-blue-950 p-5 rounded-full text-white shadow-lg border-2 border-white">
                                         </div>
                                     </div>
-                                    <div class="w-full text-white flex flex-col gap-5">
+                                    <div class="w-full text-white flex flex-col gap-5 pt-5">
                                         <div class="uppercase text-3xl">
                                             celestıal drop earrıngs
                                         </div>
@@ -58,11 +58,14 @@
                                             STOCK:
                                             Available
                                         </div>
+                                        <button
+                                            class="border-2 border-white py-3 hover:bg-white hover:text-black transition-all duration-300">Add
+                                            to Cart</button>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="flex items-center gap-10">
+                            </a>
+                            <a href="#" class="swiper-slide">
+                                <div class="flex gap-10">
                                     <div class="swiper featuredCelestialSlider">
                                         <div class="swiper-wrapper h-[560px]">
                                             <div class="swiper-slide">
@@ -94,7 +97,7 @@
                                             class="swiper-button-prev bg-blue-950 p-5 rounded-full text-white shadow-lg border-2 border-white">
                                         </div>
                                     </div>
-                                    <div class="w-full text-white flex flex-col gap-5">
+                                    <div class="w-full text-white flex flex-col gap-5 pt-5">
                                         <div class="uppercase text-3xl">
                                             Celestial Radıance Oval
                                         </div>
@@ -111,9 +114,12 @@
                                             STOCK:
                                             Available
                                         </div>
+                                        <button
+                                            class="border-2 border-white py-3 hover:bg-white hover:text-black transition-all duration-300">Add
+                                            to Cart</button>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
