@@ -73,3 +73,40 @@ var swiper = new Swiper(".featuredCelestialSlider", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// FILTER SECTION JS
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll("#collection-btn button");
+    const collections = document.querySelectorAll(".collection");
+
+    function showMenu(category, clickedButton) {
+        collections.forEach((menu) => {
+            // Tüm koleksiyonları gizle
+            menu.style.display = "none";
+        });
+
+        // Seçilen kategoriyi göster
+        const selectedCollection = document.querySelector(`.${category}-menu`);
+        if (selectedCollection) {
+            selectedCollection.style.display = "flex";
+            selectedCollection.style.alignItems = "center";
+            selectedCollection.style.flexWrap = "wrap";
+        }
+
+        // Aktif olan butonu güncelle
+        buttons.forEach((button) => button.classList.remove("active"));
+        clickedButton.classList.add("active");
+    }
+
+    // Butonlara tıklama olayı ekleyin
+    buttons.forEach((button) => {
+        button.addEventListener("click", function () {
+            const category = this.getAttribute("data-category");
+            showMenu(category, this);
+        });
+    });
+
+    // Sayfa ilk yüklendiğinde "latest" koleksiyonunu göster
+    buttons[0].classList.add("active");
+    showMenu("latest", buttons[0]);
+});
