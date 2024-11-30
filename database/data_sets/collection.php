@@ -12,6 +12,7 @@ return [
         [
             'name' => 'Opal Gleam Bangle',
             'price' => '3,250.00',
+            'old_price' => '6,400.00',
             'image' => asset('front/assets/images/latest3.png'),
             'hover_image' => asset('front/assets/images/latest4.png'),
         ],
@@ -24,6 +25,7 @@ return [
         [
             'name' => 'Eternal Grace Pendant',
             'price' => '2,250.00',
+            'old_price' => '4,400.00',
             'image' => asset('front/assets/images/latest7.png'),
             'hover_image' => asset('front/assets/images/latest8.png'),
         ],
@@ -45,6 +47,7 @@ return [
         [
             'name' => 'Dreamy Horizon Pear',
             'price' => '3,200.00',
+            'old_price' => '4,400.00',
             'image' => asset('front/assets/images/hot5.png'),
             'hover_image' => asset('front/assets/images/most2.png'),
         ],
@@ -60,6 +63,7 @@ return [
         [
             'name' => 'Celestial Radiance Oval',
             'price' => '3,999.00',
+            'old_price' => '10,900.00',
             'image' => asset('front/assets/images/hot1.png'),
             'hover_image' => asset('front/assets/images/most1.png'),
         ],
@@ -72,6 +76,7 @@ return [
         [
             'name' => 'Dreamy Horizon Pear',
             'price' => '3,200.00',
+            'old_price' => '9,400.00',
             'image' => asset('front/assets/images/most6.png'),
             'hover_image' => asset('front/assets/images/most3.png'),
         ],

@@ -30,7 +30,12 @@
                         </div>
 
                         <div class="mt-2">{{ $item['name'] }}</div>
-                        <div>${{ $item['price'] }}</div>
+                        <div>
+                            @if (isset($item['old_price']))
+                                <span class="line-through text-gray-500 mr-2">${{ $item['old_price'] }}</span>
+                            @endif
+                            <span class="text-black">${{ $item['price'] }}</span>
+                        </div>
                     </a>
                 @endforeach
             </div>
@@ -48,7 +53,12 @@
                         </div>
 
                         <div class="mt-2">{{ $item['name'] }}</div>
-                        <div>${{ $item['price'] }}</div>
+                        <div>
+                            @if (isset($item['old_price']))
+                                <span class="line-through text-gray-500 mr-2">${{ $item['old_price'] }}</span>
+                            @endif
+                            <span class="text-black">${{ $item['price'] }}</span>
+                        </div>
                     </a>
                 @endforeach
             </div>
@@ -66,7 +76,12 @@
                         </div>
 
                         <div class="mt-2">{{ $item['name'] }}</div>
-                        <div>${{ $item['price'] }}</div>
+                        <div>
+                            @if (isset($item['old_price']))
+                                <span class="line-through text-gray-500 mr-2">${{ $item['old_price'] }}</span>
+                            @endif
+                            <span class="text-black">${{ $item['price'] }}</span>
+                        </div>
                     </a>
                 @endforeach
             </div>
