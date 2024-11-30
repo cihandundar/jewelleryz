@@ -11,16 +11,16 @@
             </div>
         </div>
         <div class="flex items-center gap-5" id="collection-btn">
-            <button data-category="latest">LATEST</button>
-            <button data-category="deals">HOT DEALS</button>
-            <button data-category="most">MOST SOLD</button>
+            <button data-category="latest" class="category-btn">LATEST</button>
+            <button data-category="deals" class="category-btn">HOT DEALS</button>
+            <button data-category="most" class="category-btn">MOST SOLD</button>
         </div>
 
         <div>
             <div class="collection latest-menu flex gap-5 pt-10">
                 @foreach ($collection['latest'] as $item)
                     <a href="#" class="relative group">
-                        <div class="bg-gray-100 overflow-hidden w-[280px] h-[300px] relative">
+                        <div class="bg-gray-100 overflow-hidden w-[300px] h-[300px] relative">
                             <img src="{{ $item['image'] }}" alt="collectionImage"
                                 class="w-full h-auto opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                             @if (isset($item['hover_image']))
@@ -38,7 +38,7 @@
             <div class="collection deals-menu flex gap-5 pt-10" style="display: none;">
                 @foreach ($collection['deals'] as $item)
                     <a href="#" class="relative group">
-                        <div class="bg-gray-100 overflow-hidden w-[280px] h-[300px] relative">
+                        <div class="bg-gray-100 overflow-hidden w-[300px] h-[300px] relative">
                             <img src="{{ $item['image'] }}" alt="collectionImage"
                                 class="w-full h-auto opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                             @if (isset($item['hover_image']))
@@ -56,7 +56,7 @@
             <div class="collection most-menu flex gap-5 pt-10" style="display: none;">
                 @foreach ($collection['most'] as $item)
                     <a href="#" class="relative group">
-                        <div class="bg-gray-100 overflow-hidden w-[280px] h-[300px] relative">
+                        <div class="bg-gray-100 overflow-hidden w-[300px] h-[300px] relative">
                             <img src="{{ $item['image'] }}" alt="collectionImage"
                                 class="w-full h-auto opacity-100 transition-opacity duration-300 group-hover:opacity-0">
                             @if (isset($item['hover_image']))

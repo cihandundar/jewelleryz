@@ -46,7 +46,7 @@ return [
             'name' => 'Dreamy Horizon Pear',
             'price' => '3,200.00',
             'image' => asset('front/assets/images/hot5.png'),
-            'hover_image' => asset('front/assets/images/hot6.png'),
+            'hover_image' => asset('front/assets/images/most2.png'),
         ],
         [
             'name' => 'Luxury Radiance',
