@@ -14,9 +14,9 @@
                     <div class="swiper featuredSlider pb-5">
                         <div class="swiper-wrapper">
                             <a href="#" class="swiper-slide">
-                                <div class="flex gap-10">
+                                <div class="flex md:flex-row flex-col gap-10">
                                     <div class="swiper featuredEaringSlider">
-                                        <div class="swiper-wrapper h-[560px]">
+                                        <div class="swiper-wrapper h-[560px] w-full">
                                             <div class="swiper-slide">
                                                 <img class="aspect-square h-full object-cover"
                                                     src="{{ asset('front/assets/images/earings1.png') }}"
@@ -65,7 +65,7 @@
                                 </div>
                             </a>
                             <a href="#" class="swiper-slide">
-                                <div class="flex gap-10">
+                                <div class="flex gap-10  md:flex-row flex-col  ">
                                     <div class="swiper featuredCelestialSlider">
                                         <div class="swiper-wrapper h-[560px]">
                                             <div class="swiper-slide">

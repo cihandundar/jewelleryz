@@ -3,7 +3,7 @@
         <img src="{{ asset('front/assets/images/spinner.png') }}" alt="spinner"
             class="absolute left-0 top-5 w-20 animate-spinSlow">
         <div class="flex flex-col justify-center items-center pt-[90px]">
-            <div class="text-7xl italic text-center">
+            <div class="md:text-7xl text-4xl italic text-center">
                 Our Categories
             </div>
             <div class="text-center pt-5 italic">
