@@ -21,13 +21,17 @@
                     </div>
 
                     <div
-                        class="shadow-2xl md:w-[40%] w-full text-center px-5 py-10 md:-ml-10 -ml-0 relative z-10 bg-white">
+                        class="shadow-2xl md:w-[44%] w-full text-center px-2 py-10 md:-ml-10 -ml-0 relative z-10 bg-white">
                         <div class="mt-2 md:text-2xl text-2xl">{{ $item['name'] }}</div>
                         <div class="md:text-inherit text-2xl">
                             @if (isset($item['old_price']))
                                 <span class="line-through text-gray-500 mr-2">${{ $item['old_price'] }}</span>
                             @endif
                             <span class="text-black">${{ $item['price'] }}</span>
+                        </div>
+                        <div class="flex gap-5 justify-center pt-5">
+                            <button class="border-b-2 border-gray-900">Add to Cart</button>
+                            <button class="border-b-2 border-gray-900">View Details</button>
                         </div>
                     </div>
                 </a>
