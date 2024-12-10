@@ -1,6 +1,6 @@
 <section class="py-10">
     <div class="container max-w-screen-xl mx-auto ">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center pb-2 border-b-2 border-gray-500">
             <div>
                 <div class="pb-2">Exclusive Deals</div>
                 <div class="text-5xl">LIMITED TIME OFFER</div>
