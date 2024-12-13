@@ -9,5 +9,6 @@
     @include('front.partials.sections.collections')
     @include('front.partials.sections.limited-offer')
     @include('front.partials.sections.our-featured')
+    @include('front.partials.sections.shop-collection')
     @include('front.partials.sections.banner')
 @endsection
