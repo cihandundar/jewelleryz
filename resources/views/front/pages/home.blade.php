@@ -8,4 +8,5 @@
     @include('front.partials.sections.our-story')
     @include('front.partials.sections.collections')
     @include('front.partials.sections.limited-offer')
+    @include('front.partials.sections.our-featured')
 @endsection
