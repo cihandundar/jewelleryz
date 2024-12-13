@@ -11,4 +11,5 @@
     @include('front.partials.sections.our-featured')
     @include('front.partials.sections.shop-collection')
     @include('front.partials.sections.banner')
+    @include('front.partials.sections.blogs')
 @endsection
